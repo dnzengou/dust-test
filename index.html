@@ -19,23 +19,23 @@
     <!-- Chrome on Android -->
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="application-name" content="dust test app">
-    <link rel="icon" sizes="192x192" href="img/logo.png">
+    <link rel="icon" sizes="192x192" href="img/favicons/android-chrome-192x192.png">
 
     <!-- Safari on iOS -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="dust test app">
-    <link rel="apple-touch-icon" href="img/logo.png">
+    <link rel="apple-touch-icon" href="img/favicons/apple-touch-icon.png">
 
     <!-- Windows 8 -->
-    <meta name="msapplication-TileImage" content="img/logo.png">
+    <meta name="msapplication-TileImage" content="img/favicons/logo.png">
     <meta name="msapplication-TileColor" content="#FFFFFF">
 
     <!-- Chrome theme Color -->
     <meta name="theme-color" content="#FFFFFF">
 
     <!-- Fav icon -->
-    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="shortcut icon" href="img/favicons/favicon.ico">
     <!-- Title, DON'T FORGET TO CHANGE THE TITLE IN bower.js -->
     <title>dust-test-app</title>
     <!-- Roboto Font -->
@@ -53,14 +53,14 @@
 
 
     <!-- Preloader (Splashscreen) -->
-    <div id="preloader">
+    <!--<div id="preloader">
         <paper-spinner class="loading" active></paper-spinner>
-        <div id="status">DUST-test</div>
+        <div id="status">EverybodyTravel-test-app</div>
         <p class="by">by <a href="desireyavro.com">me</a></p>
 
-    </div>
+    </div>-->
 
-    <!--<template id="t" is="dom-bind">
+    <template id="t" is="dom-bind">
 
     <template is="dom-if" if="{{syncing}}">
       <div id="refresh" class="fit layout vertical center-center">
@@ -68,12 +68,12 @@
           <paper-spinner active></paper-spinner>
         </div>
       </div>
-    </template>-->
+    </template>
 
-    <!--<div id="loginscreen" class="layout vertical center-center fit" hidden="[[_computeHideLogin(isAuthenticated)]]">
+    <div id="loginscreen" class="layout vertical center-center fit" hidden="[[_computeHideLogin(isAuthenticated)]]">
         <google-signin width="wide" height="tall" client-id="229000986068-hld1d9ovioamaaur218vg3jg5dgvf2a2.apps.googleusercontent.com" scopes="https://www.googleapis.com/auth/plus.login https://www.googleapis.com/auth/gmail.readonly" on-google-signin-success="onSigninSuccess"
             signed-in="{{signedIn}}"></google-signin>
-    </div>-->
+    </div>
 
     <!-- Drawer -->
     <paper-drawer-panel transition id="core_drawer_panel" narrow="{{narrow}}" touch-action>
@@ -94,14 +94,7 @@
                     <paper-item>
                         <iron-icon icon="home" style="padding-right:16px;color: rgba(0, 0, 0, 0.54);"></iron-icon>
                         <paper-item-body>
-                            <div class="item">User</div>
-                        </paper-item-body>
-                    </paper-item>
-
-                    <paper-item>
-                        <iron-icon icon="mail" style="padding-right:16px;color: rgba(0, 0, 0, 0.54);"></iron-icon>
-                        <paper-item-body>
-                            <div class="item">Cart</div>
+                            <div class="item">Member</div>
                         </paper-item-body>
                     </paper-item>
 
@@ -121,26 +114,26 @@
                 <!--<p class="drawerhr">Category</p>-->
                 <!-- Drawer Items -->
 
-                <p class="drawerhr"></p>
+                <p class="drawerhr">Visualization</p>
 
                 <paper-item>
-                    <iron-icon icon="map" style="padding-right:16px;color: rgba(0, 0, 0, 0.54);"></iron-icon>
+                    <iron-icon icon="mail" style="padding-right:16px;color: rgba(0, 0, 0, 0.54);"></iron-icon>
                     <paper-item-body>
                         <div class="item" href="#map">Map</div>
                     </paper-item-body>
                 </paper-item>
 
                 <paper-item>
-                    <iron-icon icon="star" style="padding-right:16px;color: rgba(0, 0, 0, 0.54);"></iron-icon>
+                    <iron-icon icon="send" style="padding-right:16px;color: rgba(0, 0, 0, 0.54);"></iron-icon>
                     <paper-item-body>
-                        <div class="item" href="#progress">Progress</div>
+                        <div class="item" href="#gantt">Progress</div>
                     </paper-item-body>
                 </paper-item>
 
                 <paper-item>
                     <iron-icon icon="star" style="padding-right:16px;color: rgba(0, 0, 0, 0.54);"></iron-icon>
                     <paper-item-body>
-                        <div class="item">stat</div>
+                        <div class="item" href="#analytics">Stat</div>
                     </paper-item-body>
                 </paper-item>
 
@@ -157,7 +150,7 @@
             <paper-toolbar id="core_toolbar">
                 <paper-icon-button icon="menu" id="core_icon_button" paper-drawer-toggle></paper-icon-button>
                 <!-- Title in the Toolbar -->
-                <div id="div" flex class="ttitle">DUST</div>
+                <div id="div" flex class="title">DUST</div>
             </paper-toolbar>
             <br><br>
             <br><br>
@@ -167,9 +160,9 @@
 
             <!-- Place this tag where you want the Awesome Table Widget to render -->
             <!--<div data-type="AwesomeTableView" data-viewID="-Kai8Y9ouK9HP3jSiqWW"></div>-->
-            <div id='hotel'>
+            <div id='projet'>
 
-                <iframe height="500px" width="100%" style="border:none;" src="https://view-awesome-table.com/-KaIc_nW2nR4dW1ShUGi/view">
+                <iframe height="600px" width="100%" style="border:none;" src="https://view-awesome-table.com/-Ka_e84UTQgdwHxARozg/view">
                 </iframe>
 
             </div>
